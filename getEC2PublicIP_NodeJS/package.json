@@ -1,0 +1,17 @@
+{
+    "name": "base-lambda-typescript",
+    "scripts": {
+        "build": "rimraf ./dist && tsc",
+        "deploy": "npm run build && sls deploy"
+    },
+    "dependencies": {
+        "@types/aws-lambda": "^8.10.39",
+        "@types/node": "^13.1.4",
+        "serverless-mysql": "^1.5.3",
+        "typescript": "^3.7.4"
+    },
+    "devDependencies": {
+        "aws-sdk-typescript": "^0.0.3",
+        "rimraf": "^3.0.0"
+    }
+}

@@ -1,0 +1,42 @@
+# venv
+
+venv/
+
+# zip, tar, rar
+
+*.rar
+*.zip
+*.tar.*
+
+# pyc
+
+*.pyc
+
+# secrets
+
+secret_info/
+secret_info.py
+secret_info*
+
+# APIs.py
+
+APIs.py
+
+# packages
+
+mysql/
+mysql_connector-2.2.9.dist-info/
+mysqlx/
+
+# api
+
+*.api
+
+
+# node modules
+
+node_modules/
+
+# cache
+
+*cache__*

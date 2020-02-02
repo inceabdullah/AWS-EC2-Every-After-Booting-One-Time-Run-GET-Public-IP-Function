@@ -1,0 +1,30 @@
+# secrets
+
+secret_info/
+
+# node modules
+
+node_modules/
+# venv
+
+venv/
+
+# zip, tar, rar
+
+*.rar
+*.zip
+*.tar.*
+
+# pyc
+
+*.pyc
+
+# secrets
+
+secret_info/
+secret_info.py
+secret_info*
+
+# APIs.py
+
+APIs.py
